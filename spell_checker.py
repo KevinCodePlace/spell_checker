@@ -1,7 +1,6 @@
 import streamlit as st
 import re
 from collections import Counter
-from textblob import TextBlob
 
 def words(text): return re.findall(r'\w+', text.lower())
 
