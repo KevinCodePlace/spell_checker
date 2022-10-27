@@ -64,7 +64,7 @@ def replaces(word):
     splits     = [(word[:i], word[i:])    for i in range(len(word) + 1)]
     return [L + c + R[1:]           for L, R in splits if R for c in letters]
 
-random_word = ["","plot","amuse","rider","weak","likie",
+random_word = ["","apple","lamon","speling","hapy","language","greay","plot","amuse","rider","weak","likie",
                 "slop","urgency","volcanp","central","cafe",
                 "groam","release","fead","limit","prescriptoon"]
 
